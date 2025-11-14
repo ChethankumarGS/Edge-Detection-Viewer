@@ -64,19 +64,22 @@ This project implements a complete edge detection pipeline on Android, showcasin
 ## 📸 Screenshots and Demos
 
 ### Android Application
-![Hand edge detection sample from android App](screenshots/mobile-edge-detection.jpg)
+![Hand edge detection sample from android App](Screenshots/Mobile-edge-detection.jpg)
 *Real-time edge detection of a mobile, running on Android device with camera preview*
 
-![Hand edge detection sample from android App](screenshots/hand-edge-detection.jpg)
+![Hand edge detection sample from android App](Screenshots/Hand-edge-detection.jpg)
 *Real-time edge detection of a hand, running on Android device with camera preview*
 
-### Demo Video
-Watch the application in action:
+## 🎥 Demo Video
 
-https://github.com/0xUjwal/Edge-Detection-Viewer/Screenshots/Demo-video.mp4
+
+
+https://github.com/user-attachments/assets/f41ea4f4-11f5-407c-a8a8-7b9f13379028
+
+
 
 ### Web Viewer Interface
-![Web Viewer - Edge Detection Output](screenshots/web-viewer.jpg)
+![Web Viewer - Edge Detection Output](Screenshots/web-viewer.jpg)
 *TypeScript web viewer displaying real-time edge detection results with frame statistics*
 
 ## 🏗 System Architecture
