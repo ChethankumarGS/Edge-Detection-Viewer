@@ -66,11 +66,17 @@ This project implements a complete edge detection pipeline on Android, showcasin
 ## 📸 Screenshots and Demos
 
 ### Android Application
-<img src="screenshots/mobile-edge-detection.jpg" width="300"/>
-<p><em>Real-time edge detection of a mobile...</em></p>
+<p align="center">
+  <img src="Screenshots/Mobile-edge-detection.jpg" width="320">
+  <br>
+  <em>Real-time edge detection of a mobile...</em>
+</p>
 
-<img src="screenshots/hand-edge-detection.jpg" width="300"/>
-<p><em>Real-time edge detection of a hand...</em></p>
+<p align="center">
+  <img src="Screenshots/Hand-edge-detection.jpg" width="320">
+  <br>
+  <em>Real-time edge detection of a hand...</em>
+</p>
 
 
 ## 🎥 Demo Video
