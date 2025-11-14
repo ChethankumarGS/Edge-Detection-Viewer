@@ -61,9 +61,25 @@ This project implements a complete edge detection pipeline on Android, showcasin
 - **Memory Usage**: <100MB
 - **Algorithm**: Canny edge detection (thresholds: 50-150)
 
-## 📸 Screenshots
+## 📸 Screenshots and Demos
 
-[Screenshots will be added here after running the application]
+### Android Application
+![Hand edge detection sample from android App](screenshots/mobile-edge-detection.jpg)
+*Real-time edge detection of a mobile, running on Android device with camera preview*
+
+![Hand edge detection sample from android App](screenshots/hand-edge-detection.jpg)
+*Real-time edge detection of a hand, running on Android device with camera preview*
+
+### Demo Video
+Watch the application in action:
+
+https://github.com/0xUjwal/Edge-Detection-Viewer/Screenshots-and-Videos/Demo-video.mp4
+
+[📹 Download Demo Video](screenshots-and-videos/Demo-video.mp4)
+
+### Web Viewer Interface
+![Web Viewer - Edge Detection Output](screenshots/web-viewer.jpg)
+*TypeScript web viewer displaying real-time edge detection results with frame statistics*
 
 ## 🏗 System Architecture
 
@@ -264,6 +280,16 @@ The web viewer is a separate component for visualizing edge detection results.
 5. **Open Web Viewer:**
    - Open your browser and navigate to `http://localhost:8080`
    - You should see the edge detection viewer interface with sample data
+
+**Web Viewer Interface:**
+
+![Web Viewer Interface](screenshots/web-viewer.png)
+
+The web viewer provides:
+- Real-time edge detection visualization
+- Frame statistics (FPS, resolution, processing time)
+- Export functionality for saving processed frames
+- Demo mode with sample edge detection patterns
 
 ## 📁 Project Structure
 
