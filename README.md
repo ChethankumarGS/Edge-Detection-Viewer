@@ -2,6 +2,8 @@
 
 A real-time edge detection Android application demonstrating advanced mobile computer vision capabilities using OpenCV, OpenGL ES and TypeScript web viewer.
 
+ [📷 Screenshots and Demos](#-screenshots-and-demos)
+
 ## 📋 Project Overview
 
 This project implements a complete edge detection pipeline on Android, showcasing:
@@ -64,11 +66,12 @@ This project implements a complete edge detection pipeline on Android, showcasin
 ## 📸 Screenshots and Demos
 
 ### Android Application
-![Hand edge detection sample from android App](Screenshots/Mobile-edge-detection.jpg)
-*Real-time edge detection of a mobile, running on Android device with camera preview*
+<img src="screenshots/mobile-edge-detection.jpg" width="300"/>
+<p><em>Real-time edge detection of a mobile...</em></p>
 
-![Hand edge detection sample from android App](Screenshots/Hand-edge-detection.jpg)
-*Real-time edge detection of a hand, running on Android device with camera preview*
+<img src="screenshots/hand-edge-detection.jpg" width="300"/>
+<p><em>Real-time edge detection of a hand...</em></p>
+
 
 ## 🎥 Demo Video
 
