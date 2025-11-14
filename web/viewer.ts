@@ -53,33 +53,58 @@ class EdgeDetectionViewer {
         tempCanvas.height = 480;
         const tempCtx = tempCanvas.getContext('2d')!;
 
-        // Create edge-like pattern
-        tempCtx.fillStyle = '#000000';
+        // Create gradient background
+        const gradient = tempCtx.createLinearGradient(0, 0, 640, 480);
+        gradient.addColorStop(0, '#1a1a1a');
+        gradient.addColorStop(1, '#0a0a0a');
+        tempCtx.fillStyle = gradient;
         tempCtx.fillRect(0, 0, 640, 480);
 
         tempCtx.strokeStyle = '#FFFFFF';
         tempCtx.lineWidth = 2;
 
-        // Draw some edge-like lines
-        for (let i = 0; i < 20; i++) {
-            tempCtx.beginPath();
-            tempCtx.moveTo(Math.random() * 640, Math.random() * 480);
-            tempCtx.lineTo(Math.random() * 640, Math.random() * 480);
-            tempCtx.stroke();
-        }
+        // Draw geometric shapes (simulating edge detection)
+        // Rectangle edges
+        tempCtx.strokeRect(50, 50, 200, 150);
+        tempCtx.strokeRect(300, 80, 280, 200);
+        
+        // Circle edges
+        tempCtx.beginPath();
+        tempCtx.arc(150, 350, 80, 0, Math.PI * 2);
+        tempCtx.stroke();
+        
+        tempCtx.beginPath();
+        tempCtx.arc(450, 320, 100, 0, Math.PI * 2);
+        tempCtx.stroke();
 
-        // Draw circles to simulate detected edges
-        for (let i = 0; i < 10; i++) {
+        // Random edge-like lines (simulating detected features)
+        for (let i = 0; i < 30; i++) {
+            const x1 = Math.random() * 640;
+            const y1 = Math.random() * 480;
+            const length = 30 + Math.random() * 60;
+            const angle = Math.random() * Math.PI * 2;
+            
             tempCtx.beginPath();
-            tempCtx.arc(
-                Math.random() * 640,
-                Math.random() * 480,
-                20 + Math.random() * 40,
-                0,
-                Math.PI * 2
+            tempCtx.moveTo(x1, y1);
+            tempCtx.lineTo(
+                x1 + Math.cos(angle) * length, 
+                y1 + Math.sin(angle) * length
             );
+            tempCtx.globalAlpha = 0.6 + Math.random() * 0.4;
             tempCtx.stroke();
         }
+        
+        tempCtx.globalAlpha = 1.0;
+
+        // Add "DEMO" text
+        tempCtx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+        tempCtx.font = 'bold 48px Arial';
+        tempCtx.textAlign = 'center';
+        tempCtx.fillText('DEMO MODE', 320, 240);
+        
+        tempCtx.font = '16px Arial';
+        tempCtx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+        tempCtx.fillText('Connect Android app for live feed', 320, 270);
 
         return tempCanvas.toDataURL('image/png').split(',')[1];
     }
