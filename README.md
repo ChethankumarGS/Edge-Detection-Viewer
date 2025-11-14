@@ -73,9 +73,7 @@ This project implements a complete edge detection pipeline on Android, showcasin
 ### Demo Video
 Watch the application in action:
 
-https://github.com/0xUjwal/Edge-Detection-Viewer/Screenshots-and-Videos/Demo-video.mp4
-
-[📹 Download Demo Video](screenshots-and-videos/Demo-video.mp4)
+https://github.com/0xUjwal/Edge-Detection-Viewer/Screenshots/Demo-video.mp4
 
 ### Web Viewer Interface
 ![Web Viewer - Edge Detection Output](screenshots/web-viewer.jpg)
