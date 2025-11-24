@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Edge Detection Viewer</string>
+    <string name="fps_format">FPS: %d</string>
+    <string name="show_raw">Show Raw</string>
+    <string name="show_processed">Show Processed</string>
+</resources>
+

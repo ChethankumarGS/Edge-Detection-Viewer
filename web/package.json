@@ -1,0 +1,21 @@
+{
+  "name": "edge-detection-viewer",
+  "version": "1.0.0",
+  "description": "Real-time Edge Detection Web Viewer",
+  "scripts": {
+    "build": "tsc",
+    "serve": "python3 -m http.server 8080",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "edge-detection",
+    "opencv",
+    "web-viewer"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
